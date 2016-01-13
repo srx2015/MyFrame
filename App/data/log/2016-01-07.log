@@ -1,0 +1,142 @@
+
+
+E_WARNING-->
+
+file：/usr/share/nginx/html/Vendor/Core/App.class.php,
+
+line：32,
+
+message：include(/usr/share/nginx/html/App\Common\functions.php): failed to open stream: No such file or directory,
+
+date：2016-01-07 16:59:06
+
+
+E_WARNING-->
+
+file：/usr/share/nginx/html/Vendor/Core/App.class.php,
+
+line：32,
+
+message：include(): Failed opening '/usr/share/nginx/html/App\Common\functions.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php'),
+
+date：2016-01-07 16:59:06
+
+
+E_WARNING-->
+
+file：/usr/share/nginx/html/Vendor/Core/App.class.php,
+
+line：33,
+
+message：include(/usr/share/nginx/html/Vendor\Common\functions.php): failed to open stream: No such file or directory,
+
+date：2016-01-07 16:59:06
+
+
+E_WARNING-->
+
+file：/usr/share/nginx/html/Vendor/Core/App.class.php,
+
+line：33,
+
+message：include(): Failed opening '/usr/share/nginx/html/Vendor\Common\functions.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php'),
+
+date：2016-01-07 16:59:06
+
+
+E_ERROR-->
+
+file：/usr/share/nginx/html/Vendor/Core/Route.class.php,
+
+line：27,
+
+message：Class 'App\Controller\UblicController' not found,
+
+date：2016-01-07 16:59:06
+trace：#0  Vendor\Core\MyHandler::deal(1, Array ([message] => Class 'App\Controller\UblicController' not found,[file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 27)) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:67]
+#1  Vendor\Core\MyHandler::ShutdownHandler()
+
+
+
+E_ERROR-->
+
+file：/usr/share/nginx/html/Vendor/Core/Route.class.php,
+
+line：27,
+
+message：Class 'App\Controller\UblicController' not found,
+
+date：2016-01-07 17:00:29
+trace：#0  Vendor\Core\MyHandler::deal(1, Array ([message] => Class 'App\Controller\UblicController' not found,[file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 27)) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:67]
+#1  Vendor\Core\MyHandler::ShutdownHandler()
+
+
+
+Exception-->
+
+file：/usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,
+
+line：22,
+
+message：SQLSTATE[42000] [1049] Unknown database 'shop',
+
+date：2016-01-07 17:09:15
+trace：#0  Vendor\Core\MyHandler::deal(Exception, Array ([message] => SQLSTATE[42000] [1049] Unknown database 'shop',[file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[trace] => )) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:53]
+#1  Vendor\Core\MyHandler::ExcHandler(PDOException Object ([] => SQLSTATE[42000] [1049] Unknown database 'shop',[] => ,[] => 1049,[] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[] => 22,[] => Array ([0] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[function] => __construct,[class] => PDO,[type] => ->,[args] => Array ([0] => mysql:local=localhost;dbname=shop,[1] => root,[2] => root)),[1] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 16,[function] => connect,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[2] => Array ([file] => /usr/share/nginx/html/App/Controller/IndexController.class.php,[line] => 6,[function] => __construct,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[3] => Array ([file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 28,[function] => index,[class] => App\Controller\IndexController,[type] => ->,[args] => Array ()),[4] => Array ([file] => /usr/share/nginx/html/Vendor/Core/App.class.php,[line] => 17,[function] => init,[class] => Vendor\Core\Route,[type] => ::,[args] => Array ()),[5] => Array ([file] => /usr/share/nginx/html/public/index.php,[line] => 11,[function] => run,[class] => Vendor\Core\App,[type] => ::,[args] => Array ())),[] => ,[errorInfo] => ))
+
+
+
+Exception-->
+
+file：/usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,
+
+line：22,
+
+message：SQLSTATE[42000] [1049] Unknown database 'shop',
+
+date：2016-01-07 17:30:08
+trace：#0  Vendor\Core\MyHandler::deal(Exception, Array ([message] => SQLSTATE[42000] [1049] Unknown database 'shop',[file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[trace] => )) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:53]
+#1  Vendor\Core\MyHandler::ExcHandler(PDOException Object ([] => SQLSTATE[42000] [1049] Unknown database 'shop',[] => ,[] => 1049,[] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[] => 22,[] => Array ([0] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[function] => __construct,[class] => PDO,[type] => ->,[args] => Array ([0] => mysql:local=localhost;dbname=shop,[1] => root,[2] => root)),[1] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 16,[function] => connect,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[2] => Array ([file] => /usr/share/nginx/html/App/Controller/IndexController.class.php,[line] => 6,[function] => __construct,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[3] => Array ([file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 28,[function] => index,[class] => App\Controller\IndexController,[type] => ->,[args] => Array ()),[4] => Array ([file] => /usr/share/nginx/html/Vendor/Core/App.class.php,[line] => 17,[function] => init,[class] => Vendor\Core\Route,[type] => ::,[args] => Array ()),[5] => Array ([file] => /usr/share/nginx/html/public/index.php,[line] => 11,[function] => run,[class] => Vendor\Core\App,[type] => ::,[args] => Array ())),[] => ,[errorInfo] => ))
+
+
+
+Exception-->
+
+file：/usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,
+
+line：22,
+
+message：SQLSTATE[42000] [1049] Unknown database 'shop',
+
+date：2016-01-07 18:20:37
+trace：#0  Vendor\Core\MyHandler::deal(Exception, Array ([message] => SQLSTATE[42000] [1049] Unknown database 'shop',[file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[trace] => )) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:53]
+#1  Vendor\Core\MyHandler::ExcHandler(PDOException Object ([] => SQLSTATE[42000] [1049] Unknown database 'shop',[] => ,[] => 1049,[] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[] => 22,[] => Array ([0] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[function] => __construct,[class] => PDO,[type] => ->,[args] => Array ([0] => mysql:local=localhost;dbname=shop,[1] => root,[2] => root)),[1] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 16,[function] => connect,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[2] => Array ([file] => /usr/share/nginx/html/App/Controller/IndexController.class.php,[line] => 6,[function] => __construct,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[3] => Array ([file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 28,[function] => index,[class] => App\Controller\IndexController,[type] => ->,[args] => Array ()),[4] => Array ([file] => /usr/share/nginx/html/Vendor/Core/App.class.php,[line] => 17,[function] => init,[class] => Vendor\Core\Route,[type] => ::,[args] => Array ()),[5] => Array ([file] => /usr/share/nginx/html/public/index.php,[line] => 11,[function] => run,[class] => Vendor\Core\App,[type] => ::,[args] => Array ())),[] => ,[errorInfo] => ))
+
+
+
+Exception-->
+
+file：/usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,
+
+line：22,
+
+message：SQLSTATE[42000] [1049] Unknown database 'shop',
+
+date：2016-01-07 19:28:04
+trace：#0  Vendor\Core\MyHandler::deal(Exception, Array ([message] => SQLSTATE[42000] [1049] Unknown database 'shop',[file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[trace] => )) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:53]
+#1  Vendor\Core\MyHandler::ExcHandler(PDOException Object ([] => SQLSTATE[42000] [1049] Unknown database 'shop',[] => ,[] => 1049,[] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[] => 22,[] => Array ([0] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[function] => __construct,[class] => PDO,[type] => ->,[args] => Array ([0] => mysql:local=localhost;dbname=shop,[1] => root,[2] => root)),[1] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 16,[function] => connect,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[2] => Array ([file] => /usr/share/nginx/html/App/Controller/IndexController.class.php,[line] => 6,[function] => __construct,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[3] => Array ([file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 28,[function] => index,[class] => App\Controller\IndexController,[type] => ->,[args] => Array ()),[4] => Array ([file] => /usr/share/nginx/html/Vendor/Core/App.class.php,[line] => 17,[function] => init,[class] => Vendor\Core\Route,[type] => ::,[args] => Array ()),[5] => Array ([file] => /usr/share/nginx/html/public/index.php,[line] => 11,[function] => run,[class] => Vendor\Core\App,[type] => ::,[args] => Array ())),[] => ,[errorInfo] => ))
+
+
+
+Exception-->
+
+file：/usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,
+
+line：22,
+
+message：SQLSTATE[42000] [1049] Unknown database 'shop',
+
+date：2016-01-07 21:08:43
+trace：#0  Vendor\Core\MyHandler::deal(Exception, Array ([message] => SQLSTATE[42000] [1049] Unknown database 'shop',[file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[trace] => )) called at [/usr/share/nginx/html/Vendor/Core/MyHandler.class.php:53]
+#1  Vendor\Core\MyHandler::ExcHandler(PDOException Object ([] => SQLSTATE[42000] [1049] Unknown database 'shop',[] => ,[] => 1049,[] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[] => 22,[] => Array ([0] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 22,[function] => __construct,[class] => PDO,[type] => ->,[args] => Array ([0] => mysql:local=localhost;dbname=shop,[1] => root,[2] => root)),[1] => Array ([file] => /usr/share/nginx/html/Vendor/Core/ActiveRecord.class.php,[line] => 16,[function] => connect,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[2] => Array ([file] => /usr/share/nginx/html/App/Controller/IndexController.class.php,[line] => 6,[function] => __construct,[class] => Vendor\Core\ActiveRecord,[type] => ->,[args] => Array ()),[3] => Array ([file] => /usr/share/nginx/html/Vendor/Core/Route.class.php,[line] => 28,[function] => index,[class] => App\Controller\IndexController,[type] => ->,[args] => Array ()),[4] => Array ([file] => /usr/share/nginx/html/Vendor/Core/App.class.php,[line] => 17,[function] => init,[class] => Vendor\Core\Route,[type] => ::,[args] => Array ()),[5] => Array ([file] => /usr/share/nginx/html/public/index.php,[line] => 11,[function] => run,[class] => Vendor\Core\App,[type] => ::,[args] => Array ())),[] => ,[errorInfo] => ))
+
